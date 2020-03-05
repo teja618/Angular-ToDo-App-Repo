@@ -1,0 +1,28 @@
+.
+
+.col-md-6{
+    margin: 5px     ;
+    padding: 5em;
+}
+
+
+
+.titleName {
+    background-color: #282c34;
+    min-height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .button{
+    background-color: #282c34;
+    color: aliceblue;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+
+  }

@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-app';
+  title = 'Angular-To Do App';
+  inputTask=''
+  newItem:String=''
+
+  items=[{type:String}]
+
+  onAdd=()=>{
+  
+    this.items.push(
+      {type:this.newItem}
+      );
+
+  }
+  
+
 }
