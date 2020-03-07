@@ -1,19 +1,24 @@
-.
 
-.col-md-6{
-    margin: 5px     ;
-    padding: 5em;
+.panel-body{
+  background-color:rgba(25,118,210,.05);
 }
 
+.form-control{
+width: 500px;}
 
-
+@media only screen and (max-width: 992px) {
+  
+}
 .titleName {
+  margin: 5px;
+  padding-top: 10px;
     background-color: #282c34;
-    min-height: 7vh;
+    min-height: 6vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-content: center;
+    text-align-last: justify;
     font-size: calc(10px + 2vmin);
     color: white;
   }
@@ -25,4 +30,12 @@
     height: 35px;
     cursor: pointer;
 
+  }
+  .container{
+    width: 800px;
+  }
+
+  .material-icons{  
+    cursor: pointer;
+    float: right;  
   }
