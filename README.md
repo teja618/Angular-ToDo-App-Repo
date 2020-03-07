@@ -1,6 +1,7 @@
-# AngularApp
+# Angular ToDo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.out 
+This project is about learning angular from scratch to deal with Rest API from Angular application and perform HTTP requests to access resouce.
 
 ## Development server
 
