@@ -1,10 +1,4 @@
 
-.panel-body{
-  background-color:rgba(25,118,210,.05);
-}
-
-.form-control{
-width: 500px;}
 
 @media only screen and (max-width: 992px) {
   
@@ -21,21 +15,4 @@ width: 500px;}
     text-align-last: justify;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
-
-  .button{
-    background-color: #282c34;
-    color: aliceblue;
-    width: 135px;
-    height: 35px;
-    cursor: pointer;
-
-  }
-  .container{
-    width: 800px;
-  }
-
-  .material-icons{  
-    cursor: pointer;
-    float: right;  
   }

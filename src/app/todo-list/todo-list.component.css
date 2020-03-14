@@ -1,0 +1,24 @@
+
+  .button{
+    background-color: #282c34;
+    color: aliceblue;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+
+  }
+  .container{
+    width: 800px;
+  }
+
+  .material-icons{  
+    cursor: pointer;
+    float: right;  
+  }
+
+  .panel-body{
+    background-color:rgba(25,118,210,.05);
+  }
+  
+  .form-control{
+  width: 500px;}

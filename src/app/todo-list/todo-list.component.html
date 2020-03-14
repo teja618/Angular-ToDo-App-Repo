@@ -1,0 +1,27 @@
+
+
+<div class="container" >
+    <div class='col-md-8'>
+    <input class='form-control'  [(ngModel)]='inputTask'/>
+    </div>
+
+    <div class='col-md-4' >
+        <button type="button"  class="button" [disabled]="inputTask ==='' " (click)="onAdd()"  >Add Task</button>
+    </div>
+</div>
+
+<br>
+<br>
+<div class="container">
+<div class="panel"  *ngFor="let task of tasksList,let i=index">
+<div class="panel-default" >
+    <div class="panel-heading">Task 
+        <i class="material-icons" (click)="delete(i)">delete </i>
+    </div>
+
+    <div class="panel-body"  >
+       <p [hidden]='task.taskEdit'> {{ task.taskName }} </p>
+    </div>
+</div>
+</div>
+</div>
