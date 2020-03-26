@@ -1,5 +1,7 @@
 # Angular ToDo App
 
+A Single Paged simple To Do App built on Angular.
+
 This project is about learning angular as beginner to understand components and its communication in between.
 
 ## Development server
